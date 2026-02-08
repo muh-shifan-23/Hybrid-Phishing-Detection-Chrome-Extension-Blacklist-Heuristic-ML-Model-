@@ -44,6 +44,12 @@ A Chrome extension that detects phishing websites using a **hybrid approach**:
 3. Click **Load unpacked**
 4. Select the `chrome-extension/` folder
 
+## 📁 Note on Machine Learning Models
+ML models and datasets were trained offline and intentionally excluded from this repository
+to prevent exposure of sensitive data and tokens. The extension uses pre-trained heuristic
+logic for client-side phishing detection.
+
+
 ## 🎯 Use Case
 This project demonstrates:
 - Browser-based phishing detection
