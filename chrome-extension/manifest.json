@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Hybrid Phishing Detector",
+  "version": "1.0",
+  "description": "Detects phishing using ML + OpenPhish blacklist",
+  "permissions": ["storage"],
+  "host_permissions": ["https://openphish.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
