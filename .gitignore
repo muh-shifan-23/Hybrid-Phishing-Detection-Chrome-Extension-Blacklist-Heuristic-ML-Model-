@@ -1,0 +1,8 @@
+# ML artifacts & datasets (never commit)
+ml-engine/*.csv
+ml-engine/*.pickle
+ml-engine/*.ipynb
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
